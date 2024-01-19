@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson Management</title>
+</head>
+<body>
+    <h1>Lesson Management</h1>
+    <form action="/lessons" method="POST">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br><br>
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" required><br><br>
+        <label for="impact">Impact:</label>
+        <input type="text" id="impact" name="impact" required><br><br>
+        <input type="submit" value="Create Lesson">
+    </form>
+    <br>
+    <a href="/lessons">View Lessons</a>
+</body>
+</html>
